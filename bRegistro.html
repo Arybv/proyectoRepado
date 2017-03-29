@@ -4,14 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/main.css">
-    <title>Registro</title>
+    <title>Registrando Coder's</title>
   </head>
-  <body style="background-color:#000000">
-    <form action="form">
+  <body style="background-color:#BBBBBB; text-align:center; padding:186px">
+    <form id="form">
     <!-- Nombre-->
       <label for="nombre"><strong style="color:orange">Nombre: </strong></label>
-      <input type="text" class="input-registro" id="name" placeholder="Ingrese su nombre completo">
+      <input type="text" class="input-registro" id="nombre" placeholder="Ingrese su nombre completo">
       <br>
       <span></span>
       <br>
@@ -27,14 +26,14 @@
       <br>
       <span></span>
       <br>
-    <!-- Contraseña-->
-    <label for="password"><strong style="color:orange">Contraseña: </strong></label>
-    <input type="text"class="input-registro" id="contraseña" placeholder="Ingrese su contraseña">
-    </form>
-    <br>
-    <div>
-      <button id="registro2" style="font-size:16px; color:#777777"><strong>Registrate</strong></button>
-    </div>
-    <script type="text/javascript" src="js/registro.js"></script>
+      <!-- Contraseña-->
+      <label for="contrasenia"><strong style="color:orange">Contraseña: </strong></label>
+      <input type="text"class="input-registro" id="contrasenia" placeholder="Ingrese su contraseña">
+      </form>
+      <br>
+      <button id="registrar" style="font-size:16px; color:#777777"><strong>Registrate</strong></button>
+    <span id="indica"></span>
+    <div id="div-contenedor"></div>
+    <script type="text/javascript" src="js/bRegistro.js"></script>
   </body>
 </html>
